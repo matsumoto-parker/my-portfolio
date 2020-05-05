@@ -56,3 +56,7 @@ body {
   font-size: 3rem;
   padding: 8px;
 }
+
+.work-container {
+  display: flex;
+}
