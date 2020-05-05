@@ -1,7 +1,24 @@
 * {
   margin: 0;
+  text-decoration: none;
+  color: #fff;
 }
 
-.header-title {
-  padding: 10px;
+body {
+  background-color: #3a8daf;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.my-image {
+  max-width: 350px;
+  height: 250px;
+  text-align: center;
 }
