@@ -6,7 +6,23 @@ class Contact extends React.Component {
       <div className="container">
         <h1>Contact</h1>
         <div className="contact-box">
-          <p>miu.matusmoto04@gmail.com</p>
+          <div className="contact-mail">
+            <i class="far fa-envelope"></i>
+            <p>miu.matusmoto04@gmail.com</p>
+          </div>
+          <p>or</p>
+          <div className="contact-mail">
+            <a
+              href="https://twitter.com/pakerpaka"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-twitter-square" area-hidden="true" />
+            </a>
+            <p>@parkerpaka</p>
+          </div>
+          <br />
+          <p>ご連絡お待ちしております。</p>
         </div>
       </div>
     );
