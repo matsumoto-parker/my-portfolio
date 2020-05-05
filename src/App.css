@@ -22,3 +22,37 @@ body {
   height: 250px;
   text-align: center;
 }
+
+.banner-text {
+  background-color: #333;
+  opacity: 0.8;
+  max-width: 60%;
+  margin: auto;
+  background-repeat: 10px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.banner-text h1 {
+  text-transform: uppercase;
+}
+
+.banner-text hr {
+  border-top: 3px solid;
+  max-width: 95%;
+  margin: 5px auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  font-size: 3rem;
+  padding: 8px;
+}
