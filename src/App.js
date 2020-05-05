@@ -1,14 +1,14 @@
 import React from 'react';
+import Header from './components/Header';
 import './App.css';
-import AppBar from '@material-ui/core/AppBar';
+import Main from './components/Main';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <AppBar className="header" position="static">
-          <h1 className="header-title">Matsumoto portfolio</h1>
-        </AppBar>
+        <Header />
+        <Main />
       </div>
     );
   }
