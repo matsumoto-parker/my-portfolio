@@ -17,6 +17,10 @@ body {
   margin-top: 5rem;
 }
 
+.container h1 {
+  text-transform: uppercase;
+}
+
 .my-image {
   max-width: 350px;
   height: 250px;
