@@ -7,7 +7,7 @@ class Contact extends React.Component {
         <h1>Contact</h1>
         <div className="contact-box">
           <div className="contact-mail">
-            <i class="far fa-envelope"></i>
+            <i className="far fa-envelope"></i>
             <p>miu.matusmoto04@gmail.com</p>
           </div>
           <p>or</p>
