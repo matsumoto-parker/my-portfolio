@@ -10,7 +10,6 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'center',
   },
   paperLeft: {
-    padding: theme.spacing(1),
     color: '#fff',
     textAlign: 'center',
     marginTop: '2rem',
@@ -18,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: 'none',
   },
   paperRight: {
-    padding: theme.spacing(1),
+    padding: theme.spacing(2),
     textAlign: 'left',
     color: '#fff',
     marginTop: '2rem',
@@ -33,15 +32,14 @@ export default function About() {
   return (
     <div className={classes.root}>
       <h1 className="title">About me</h1>
-      <Grid container spacing={2}>
+      <Grid container>
         <Grid item xs={5}>
           <Paper className={classes.paperLeft}>
             <img src={bird} alt="my-face" className="my-image" />
             <h1 className="name">松本　未優</h1>
             <div className="description">
-              <p>はじめまして。</p>
               <p>
-                未経験からweb開発のフロントエンドエンジニアを目指しています。
+                　はじめまして。未経験からweb開発のフロントエンドエンジニアを目指しています。
                 現在29歳とけして若くないビギナーですが、その分仕事を簡単に投げ出さず、腰を据えて働く覚悟があります。
                 どうかよろしくお願いいたします。
               </p>
@@ -56,13 +54,21 @@ export default function About() {
                 <dt>2015年</dt>
                 <dd className="career-text">印刷会社に就職</dd>
               </div>
-
-              <dt>2018年</dt>
-              <dd>部署内リーダー職に就任</dd>
-              <dt>2020年</dt>
-              <dd>印刷会社を退職</dd>
+              <div className="career-history">
+                <dt>2018年</dt>
+                <dd className="career-text">部署内リーダー職に就任</dd>
+              </div>
+              <div className="career-history">
+                <dt>2020年</dt>
+                <dd className="career-text">印刷会社を退職</dd>
+              </div>
             </dl>
-            <h2 className="career">学習スキル</h2>
+            <h2 className="skill">学習スキル</h2>
+            <p className="skill-text">
+              　2020年からHTML/CSS、JavaScript、Reactとフロントエンド周りを勉強してきました。
+              またFirebaseを使用することで、バックエンドも含めたアプリの制作から公開までを経験しています。
+              学習時メンターにアプリの添削をしてもらう際にGitHubを使用。チーム開発への下地はできています。
+            </p>
           </Paper>
         </Grid>
       </Grid>
