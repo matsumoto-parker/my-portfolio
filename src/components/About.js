@@ -7,6 +7,7 @@ import bird from '../img/bird.jpeg';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    flexDirection: 'center',
   },
   paperLeft: {
     padding: theme.spacing(1),
@@ -21,7 +22,8 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'left',
     color: '#fff',
     marginTop: '2rem',
-    backgroundColor: 'black',
+    backgroundColor: '#333',
+    opacity: '0.8',
   },
 }));
 
@@ -31,21 +33,37 @@ export default function About() {
   return (
     <div className={classes.root}>
       <h1 className="title">About me</h1>
-      <Grid container spacing={5}>
-        <Grid item xs={6}>
+      <Grid container spacing={2}>
+        <Grid item xs={5}>
           <Paper className={classes.paperLeft}>
             <img src={bird} alt="my-face" className="my-image" />
             <h1 className="name">松本　未優</h1>
             <div className="description">
               <p>はじめまして。</p>
               <p>
-                未経験からweb開発のフロントエンドエンジニアを目指しています。現在29歳とけして若くないビギナーですが、その分仕事を簡単に投げ出さず、腰を据えて働く覚悟があります。どうかよろしくお願いいたします。
+                未経験からweb開発のフロントエンドエンジニアを目指しています。
+                現在29歳とけして若くないビギナーですが、その分仕事を簡単に投げ出さず、腰を据えて働く覚悟があります。
+                どうかよろしくお願いいたします。
               </p>
             </div>
           </Paper>
         </Grid>
         <Grid item xs={6}>
-          <Paper className={classes.paperRight}>xs=6</Paper>
+          <Paper className={classes.paperRight}>
+            <h2 className="career">職務経歴</h2>
+            <dl className="career-box">
+              <div className="career-history">
+                <dt>2015年</dt>
+                <dd className="career-text">印刷会社に就職</dd>
+              </div>
+
+              <dt>2018年</dt>
+              <dd>部署内リーダー職に就任</dd>
+              <dt>2020年</dt>
+              <dd>印刷会社を退職</dd>
+            </dl>
+            <h2 className="career">学習スキル</h2>
+          </Paper>
         </Grid>
       </Grid>
     </div>
