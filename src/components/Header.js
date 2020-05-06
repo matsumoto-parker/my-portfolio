@@ -26,7 +26,7 @@ export default function Header() {
       <AppBar position="static" style={{ backgroundColor: '#3a8daa' }}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            <Link to="/">Matsumoto portfolio</Link>
+            <Link to="/">Matsumoto Portfolio</Link>
           </Typography>
           <Link to="/about">
             <Button color="inherit">about</Button>
