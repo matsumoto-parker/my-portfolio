@@ -5,7 +5,7 @@ class LandingPage extends React.Component {
   render() {
     return (
       <div className="container">
-        <img src={bird} alt="my-face" className="my-image"></img>
+        <img src={bird} alt="my-face" className="my-image" />
         <div className="banner-text">
           <h1>Miu Matumoto</h1>
           <h2>Front-End Engineer</h2>
