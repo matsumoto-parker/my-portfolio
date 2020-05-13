@@ -2,7 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import bird from '../img/bird.jpeg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -15,6 +14,9 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '2rem',
     backgroundColor: '#3a8daf',
     boxShadow: 'none',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
   },
   paperRight: {
     padding: theme.spacing(2),
@@ -35,7 +37,7 @@ export default function About() {
       <Grid container>
         <Grid item xs={5}>
           <Paper className={classes.paperLeft}>
-            <img src={bird} alt="my-face" className="my-image" />
+            <div className="my-image"></div>
             <h1 className="name">松本　未優</h1>
             <div className="description">
               <p>

@@ -7,7 +7,8 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import work from '../img/work1.png';
+import chatBot from '../img/chatbot.png';
+import decisionMaker from '../img/decision-maker.png';
 
 const useStyles = makeStyles({
   root: {
@@ -38,7 +39,7 @@ export default function Work() {
           <CardActionArea>
             <CardMedia
               className={classes.media}
-              image={work}
+              image={chatBot}
               title="Contemplative Reptile"
             />
             <CardContent>
@@ -48,23 +49,23 @@ export default function Work() {
                 component="h2"
                 style={{ color: '#333' }}
               >
-                Task Manager
+                profile-chatbot
               </Typography>
               <Typography
                 variant="body2"
                 component="p"
                 style={{ color: '#333' }}
               >
-                タスクを管理してくれるアプリです。
+                chatbotを通して僕の学習状況がわかります。
                 <br />
                 <br />
-                使用した技術: ReactHooks
+                使用した技術: React/Firebase
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions className={classes.button}>
             <a
-              href="https://github.com/matsumoto-parker"
+              href="https://profile-chatbot-app.web.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -81,7 +82,7 @@ export default function Work() {
           <CardActionArea>
             <CardMedia
               className={classes.media}
-              image={work}
+              image={decisionMaker}
               title="Contemplative Reptile"
             />
             <CardContent>
@@ -91,21 +92,33 @@ export default function Work() {
                 component="h2"
                 style={{ color: '#333' }}
               >
-                Lizard
+                decision-maker
               </Typography>
-              <Typography variant="body2" color="" component="p">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+              <Typography
+                variant="body2"
+                component="p"
+                style={{ color: '#333' }}
+              >
+                やることをランダムで決定してくれます。
+                <br />
+                <br />
+                使用した技術: React Hooks
               </Typography>
             </CardContent>
           </CardActionArea>
-          <CardActions>
-            <Button size="small" color="primary">
-              Share
-            </Button>
-            <Button size="small" color="primary">
-              Learn More
-            </Button>
+          <CardActions className={classes.button}>
+            <a
+              href="https://matsumoto-parker.github.io/decision-maker-app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                size="large"
+                style={{ backgroundColor: '#3a8daf', width: 300 }}
+              >
+                見てみる
+              </Button>
+            </a>
           </CardActions>
         </Card>
       </div>

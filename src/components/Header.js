@@ -26,16 +26,18 @@ export default function Header() {
       <AppBar position="static" style={{ backgroundColor: '#3a8daa' }}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            <Link to="/">Matsumoto Portfolio</Link>
+            <Link to="/">
+              <Button style={{ fontSize: '24px' }}>Matsumoto Portfolio</Button>
+            </Link>
           </Typography>
           <Link to="/about">
-            <Button color="inherit">about</Button>
+            <Button>about</Button>
           </Link>
           <Link to="/work">
-            <Button color="inherit">work</Button>
+            <Button>work</Button>
           </Link>
           <Link to="/contact">
-            <Button color="inherit">Contact</Button>
+            <Button>Contact</Button>
           </Link>
         </Toolbar>
       </AppBar>
