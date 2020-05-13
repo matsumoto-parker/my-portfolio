@@ -7,12 +7,14 @@ import LandingPage from './LandingPage';
 
 const Main = () => {
   return (
-    <Switch>
-      <Route exact path="/" component={LandingPage} />
-      <Route exact path="/about" component={about} />
-      <Route exact path="/work" component={work} />
-      <Route exact path="/contact" component={contact} />
-    </Switch>
+    <div>
+      <Switch>
+        <Route exact path="/" component={LandingPage} />
+        <Route path="/about" component={about} />
+        <Route path="/work" component={work} />
+        <Route path="/contact" component={contact} />
+      </Switch>
+    </div>
   );
 };
 
