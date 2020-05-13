@@ -7,7 +7,7 @@ class LandingPage extends React.Component {
       <div className="container">
         <img src={myFace} alt="my-face" className="my-smile-face" />
         <div className="banner-text">
-          <h1>Miu Matumoto</h1>
+          <h1>Miu Matsumoto</h1>
           <h2>Front-End Engineer</h2>
           <hr />
           <p>HTML/CSS | JavaScript | React/Redux/Hooks | Firebase | GitHub</p>
