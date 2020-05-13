@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.6e0a2cf3.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.ae231ed9.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.ae231ed9.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.f6d94e01.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.f6d94e01.js.map",
+    "static/js/2.d9cd3f59.chunk.js": "/my-portfolio/static/js/2.d9cd3f59.chunk.js",
+    "static/js/2.d9cd3f59.chunk.js.map": "/my-portfolio/static/js/2.d9cd3f59.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "precache-manifest.81febd5d08295f6c20290bd4c21db738.js": "/my-portfolio/precache-manifest.81febd5d08295f6c20290bd4c21db738.js",
+    "service-worker.js": "/my-portfolio/service-worker.js",
+    "static/css/main.6e0a2cf3.chunk.css.map": "/my-portfolio/static/css/main.6e0a2cf3.chunk.css.map",
+    "static/js/2.d9cd3f59.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.d9cd3f59.chunk.js.LICENSE.txt",
+    "static/media/chatbot.png": "/my-portfolio/static/media/chatbot.fec00f3f.png",
+    "static/media/decision-maker.png": "/my-portfolio/static/media/decision-maker.41e7228d.png",
+    "static/media/App.css": "/my-portfolio/static/media/my-face.3c3eddc2.jpeg",
+    "static/media/my-smile-face.jpeg": "/my-portfolio/static/media/my-smile-face.8692bc90.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6d94e01.js",
+    "static/js/2.d9cd3f59.chunk.js",
+    "static/css/main.6e0a2cf3.chunk.css",
+    "static/js/main.ae231ed9.chunk.js"
+  ]
+}
